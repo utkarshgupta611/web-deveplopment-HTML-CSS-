@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> my fiteness</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* CSS RESET */
+        body {
+            margin: 0px;
+            padding: 0px;
+            background: url(img/bgimg.webp);
+        }
+
+        .left {
+            border: 2px solid red;
+            display: inline-block;
+            position: absolute;
+            left: 43px;
+            top: 20px;
+        }
+        .left img{
+            width: 50px;
+        }
+        .left div{
+            text-align: center;
+        }
+
+        .center {
+            border: 2px solid red;
+            display: block;
+            width: 30%;
+            margin: auto;
+            margin-top: 20px;
+
+
+        }
+
+        .right {
+            border: 2px solid red;
+            display: inline-block;
+            position: absolute;
+            right: 43px;
+            top: 20px;
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+            display: inline-block;
+        }
+
+        .navbar li a {
+            color: rgb(255, 2, 255);
+            text-decoration: none;
+            padding: 8px;
+            font-size: 18px;
+        }
+
+        .navbar li a:hover {
+            color: greenyellow;
+            text-decoration: underline;
+        }
+        .btn{
+            padding: 2px 4px;
+            color: red;
+            background-color: black;
+            cursor: pointer;
+        }
+        .btn:hover{
+            background-color: brown;
+        }
+        .container{
+            border: 3px solid purple;
+            margin: 53PX 61PX;
+    padding: 13px 11px;
+            width: 33%;
+            BORDER border-radius: 3PX;
+
+        }
+        .FORMSGP input{
+            text-align: center;
+            display: block;
+            margin: auto;
+            width: 97px;
+            padding: 3px 3px;
+            margin: 3px 3px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <!-- this is for logo -->
+            <img src="img/logo.png">
+            <div>my fitness</div>
+        </div>
+
+        <div class="center">
+            <!-- thisb is for navigation -->
+            <ul class="navbar">
+                <li><a href="#">home</a></li>
+                <li><a href="#">about us</a></li>
+                <li><a href="#"> calculate</a></li>
+                <li><a href="#">contact us</a></li>
+            </ul>
+
+        </div>
+
+        <div class="right">
+            <!-- it is for button -->
+           <button class="btn">call us</button>
+           <button class="btn">email us</button>
+        </div>
+    </header>
+    <div class="container">
+        <H1> NEW OPENING</H1>
+        <FORM action="BACKENED.PHP">
+            <DIV class="FORMSGP">
+                <label id="name>">name<INput type="text" name="" placeholder=" enter your name"></label></INput>
+            </DIV>
+            <DIV class="FORMSGP">
+                <label id="name>">name<INput type="text" name="" placeholder=" enter your name"></label></INput>
+            </DIV>
+            <DIV class="FORMSGP">
+                <label id="name>">name<INput type="text" name="kabhi" placeholder="enter your name"></label></INput>
+            </DIV>
+            <DIV class="FORMSGP">
+                <label id="name>">name<INput type="text" name="" placeholder=" enter your name"></label></INput>
+            </DIV>
+            <div>
+                <button class="btn">dubmit</button>
+            </div>
+        </FORM>
+    </div>
+
+
+</body>
+
+</html>
